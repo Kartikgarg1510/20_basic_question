@@ -1,0 +1,109 @@
+1. What is variable?
+Sol. Variable is a name that holds a value like a number, text, or list.
+   It lets you store, use, and update data in your program as needed.
+
+2. What are variable naming rule?
+Sol. Variable naming rules are:
+	~ Name must start with a-z, A-Z or _(underscore).
+	~ Variable names cannot start with a number.
+ 	~ It is case-sensitive, so 'name' and 'Name' are different variables.
+	~ We can't use keywords like if, while, false etc.
+	~ We can use numbers like (0-9) but after or mid of variable name.
+
+3. What is datatype and name of datatype?
+Sol. A datatype in Python defines the type of value a variable can store, like numbers, text, or lists.
+   Names of DATATYPES are: 
+	~ int
+	~ float
+	~ str
+	~ bool
+	~ list
+	~ tuple
+	~ dict
+	~ set etc.
+
+4. What is keyword in python?
+Sol. A keyword in Python is a special word that is part of the language's core rules and can't be used as a variable name.
+  It tells Python to perform specific actions, like making decisions or defining functions.
+
+5. Tell me the areas where python is being used?
+Sol. 5) Here are some areas where python is being used:
+	~ Web Development
+	~ Data Science & Analytics
+	~ Machine Learning & Artificial Intelligence
+	~ Automation& Scripting
+	~ Scientific & Numeric Computing
+	~ Software Development & DevOps
+	~ Game Development
+	~ Desktop GUI Application
+	~ Embedded System & IoT
+	~ Education & Teaching
+	~ Business & Finance 
+	~ Media & Entertainment
+
+6.  What is python?
+Ans python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
+
+    It is used for:
+
+    web development (server-side),
+    software development,
+    mathematics,
+    system scripting.
+
+7.  What is high level and low level language?
+Ans High-level languages are programming languages closer to human language, making them easier to understand and write.
+    Low-level languages are closer to machine code, offering more control but are more difficult to write and understand. 
+
+8.  What is interpreted language?
+Ans An interpreted language is a type of programming language where the code is run directly by another program called an interpreter,
+    line by line, instead of being fully changed into machine language first.
+
+9.  What is compiled language?
+Ans A compiled language is a programming language where the code you write is translated into machine code all at once by a compiler before it runs.
+
+10.  What is statically typed language?
+Ans A statically typed language is a programming language where you must declare the type of a variable (like int, string, etc.)
+    before using it, and the type cannot change later.
+
+11.  What is dynamically typed language?
+Ans A dynamically typed language is a programming language where you don’t have to mention the data type (like int, string, etc.)
+    when you create a variable. The interpreter automatically figures out the type when the program runs, and the type of a variable can change later.
+
+12.  What is weakly typed language?
+Ans A weakly typed language is a programming language where variables do not have strict data types. This means you can mix different types of data
+   (like numbers and strings), and the language will automatically convert them to make the operation work.
+
+13.  What is strongly typed language?
+Ans A strongly typed language is a programming language where each variable has a fixed type, and you cannot mix types unless you explicitly convert them.
+    This means the language will catch errors if you try to do something that doesn't make sense with the types.
+
+14.  What is .PYC file(Byte code)?
+Ans .PYC file (Bytecode): When you run a Python program, the code is translated into a lower-level form called bytecode ,which is saved as a .pyc file.
+     This makes the program run faster the next time you execute it because it skips the translation step.
+
+15. What is PVM?
+Ans PVM (Python Virtual Machine): It's the part of Python that executes the bytecode (.pyc files). It converts Python bytecode into machine code that 
+    the computer can understand and run.
+
+16. How Python internally works?
+Ans Source Code (.pyc): You write the code.
+    Compilation: Python converts the source code into bytecode (.pyc).
+    Python Virtual Machine (PVM): The bytecode is executed by the PVM, which turns it into machine code the computer understands.
+
+17. What is PEP 8?
+Ans PEP 8 is a set of guidelines for writing clean, readable Python code. It covers things like how to name variables, where to place spaces,
+    and how to organize your code so it’s easier for others to understand.
+
+18. What is PIP and what is the use of PIP?
+Ans PIP stands for Python Integrated Package manager. It’s a tool that allows you to install and manage additional libraries or packages in Python,
+    making it easier to add new features to your projects.
+
+19. What is Byte code and when is it created?
+Ans Bytecode is a binary format of your Python code that is created when you run a program. Python compiles your code into bytecode so it can be executed
+    by the Python Virtual Machine (PVM). This helps the program run faster the next time you execute it.
+
+20. What is indentation in python? does python relay on indentation?
+Ans Indentation in Python means adding spaces at the beginning of a line to show which code belongs together. It’s how Python knows what’s inside loops,
+    functions, or conditionals.
+    And yes, Python depends on indentation to understand the structure of the code. Without proper indentation, Python will give an error.
